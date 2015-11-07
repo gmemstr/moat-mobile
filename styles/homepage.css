@@ -1,0 +1,24 @@
+#post,#down {
+margin:0 auto;
+background-color: #F0F0F0;
+padding:15px;
+width:75%;
+height:50%;
+box-shadow:2px 2px 5px #888;
+font-weight:400
+}
+
+a {
+text-decoration:none;
+color:#5F5F5F;
+}
+
+a:hover {
+color:#202020
+}
+
+#spacer,#spacer2 {
+display:block;
+margin:10px 0;
+line-height:10px
+}
