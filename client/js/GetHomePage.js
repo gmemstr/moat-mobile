@@ -1,9 +1,11 @@
 $(document).ready(function(){
-  JSON.parse(Get());
+  Get();
 });
 
 function Get(){
-  $.get("https://gabrielsimmer/moat-mobile/api/GET.php",{sv:"all"}).done(function(data){
-
+  var result;
+  $.get("http://gabrielsimmer.com/moat-mobile/api/GET.php",{sv:"all"}).done(function(data){
+    result = JSON.parse(data);
+    $(".posts").html(data);
   });
 }
