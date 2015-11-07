@@ -1,8 +1,9 @@
 $(document).ready(function(){
-  Get();
-
+  JSON.parse(Get());
 });
 
 function Get(){
-  $.get("")
+  $.get("https://gabrielsimmer/moat-mobile/api/GET.php",{sv:"all"}).done(function(data){
+
+  });
 }
