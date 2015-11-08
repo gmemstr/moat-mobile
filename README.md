@@ -61,3 +61,13 @@ Coming soon
 iOS:
 
 Coming soon
+
+### Components
+
+Without these components and amazing people, Moat would look a lot different.
+
+[Floating Action Bar](https://github.com/nobitagit/material-floating-button) by nobitagit
+
+[Bootstrap Material Design](https://github.com/FezVrasta/bootstrap-material-design) by FezVrasta
+
+[jQuery](https://jquery.com) by The jQuery Foundation

@@ -1,36 +1,66 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link href="styles/bootstrap.css" media="screen,projection" rel="stylesheet" type="text/css">
-    <!-- Using Bootstrap Material Design from https://github.com/FezVrasta/bootstrap-material-design
-          Credit to FezVrasta -->
-    <link href="styles/bootstrap-theme.min.css" media="screen,projection" rel="stylesheet" type="text/css">
-    <link href="styles/homepage.css" media="screen,projection" rel="stylesheet" type="text/css">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="manifest" href="manifest.json">
+   <head>
+      <link href="styles/bootstrap.css" media="screen,projection" rel="stylesheet" type="text/css">
+      <!-- Using Bootstrap Material Design from https://github.com/FezVrasta/bootstrap-material-design
+         Credit to FezVrasta -->
+      <link href="styles/bootstrap-theme.min.css" media="screen,projection" rel="stylesheet" type="text/css">
+      <link href="styles/mfb.css" media="screen,projection" rel="stylesheet" type="text/css">
+          <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+      <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+      <link rel="manifest" href="manifest.json">
+      <title>Moat</title>
+   </head>
+   <body>
+     <ul id="menu" class="mfb-component--br mfb-zoomin" data-mfb-toggle="hover">
+      <li class="mfb-component__wrap">
+        <a href="#" data-mfb-label="A long long label" class="mfb-component__button--main">
+          <i class="mfb-component__main-icon--resting ion-plus-round"></i>
+          <i class="mfb-component__main-icon--active ion-edit"></i>
+        </a>
+        <ul class="mfb-component__list">
+          <li>
+            <a href="#" data-mfb-label="Add" data-mfb-label="label with long long title" class="mfb-component__button--child">
+              <i class="mfb-component__child-icon ion-paper-airplane"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" data-mfb-label="Add" class="mfb-component__button--child">
+              <i class="mfb-component__child-icon ion-paperclip"></i>
+            </a>
+          </li>
 
-    <title>Moat</title>
-</head>
+          <li>
+            <a href="#" data-mfb-label="Add" class="mfb-component__button--child">
+              <i class="mfb-component__child-icon ion-calendar"></i>
+            </a>
+          </li>
 
-<body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
+          <li>
+            <a href="#" data-mfb-label="Add" class="mfb-component__button--child">
+              <i class="mfb-component__child-icon ion-key"></i>
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#"><img src="icons/res/mipmap-hdpi/ic_launcher.png" alt="logo"></a>
+               <a class="navbar-brand" href="#" onclick=""><img src="icons/res/mipmap-hdpi/ic_launcher.png" alt="logo"></a>
             </div>
-        </div>
-    </nav>
+         </div>
+      </nav>
+      <!--<div class="spinner"></div>-->
+      <div class="container">
+         <div class="posts"></div>
+      </div>
 
-    <!--<div class="spinner"></div>-->
-    <div class="container">
-        <div class="posts"></div>
-    </div>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/GetHomePage.js"></script>
-</body>
+      <script src="js/jquery.js"></script>
+      <script src="js/GetHomePage.js"></script>
+      <script src="js/mfb.js"></script>
+   </body>
 </html>
-
 <!-- Moat (c) Gabriel Simmer 2015 -->
