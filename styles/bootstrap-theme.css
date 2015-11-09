@@ -2589,11 +2589,12 @@ h5,
 h6 {
   font-weight: 400;
 }
+/*
 a,
 a:hover,
 a:focus {
   color: #009688;
-}
+}*/
 body .well,
 .container .well,
 .container-fluid .well,
