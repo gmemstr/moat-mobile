@@ -2,17 +2,17 @@
 
 ## MoatJS, finally for mobile
 
-### Goal:
-
-Bringing Voat.co to an easy-to-browse format for mobile phones and desktop apps.
-
-### About
+## About
 
 This is an independently developed app by Gabriel Simmer. It uses an API created
 by me to fetch the data from Voat's legacy API, which will allow for future
 feature implementation.
 
-### FAQ
+### Goal:
+
+Bringing Voat.co to an easy-to-browse format for mobile phones and desktop apps.
+
+## FAQ
 
 **Why are you using the legacy API?**
 
@@ -31,7 +31,7 @@ content from my API.*
 *Currently, the web app is not hosted online. It is expected to go online by the
 end of November. Then, you can follow the "Installing on your phone" guide.*
 
-### Installing on your phone
+## Installing on your phone
 
 The app requires an Internet connection to load content. I have not measured the
 data impact of the app, so I recommend using only WiFi until I have some stats.
@@ -48,7 +48,7 @@ iOS:
 1. Tap the share button in Safari.
 2. Tap "Add to Home Screen".
 
-### Demos
+## Demos
 
 Desktop Chrome:
 
@@ -62,7 +62,7 @@ iOS:
 
 Coming soon
 
-### Components
+## Components
 
 Without these components and amazing people, Moat would look a lot different.
 
