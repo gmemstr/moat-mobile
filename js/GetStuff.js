@@ -25,7 +25,7 @@ function SvList(){ // Get default subverses
     result = JSON.parse(data);
     for (var i = 0; i < 10; i++){
       $(".modal-body").append('<div class="row"> <div class="col-md-8">'+
-      '<h3><a href="#'+result+'">' + result[i] + '</a></h3>');
+      '<h3><a href="#'+result[i]+'">' + result[i] + '</a></h3>');
     }
     $(".modal-body").append('<input type="text" class="form-control floating-label" placeholder="/v/">');
   });
