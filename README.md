@@ -4,15 +4,18 @@
 
 ## About
 
-This is an independently developed app by Gabriel Simmer. It uses an API created
-by me to fetch the data from Voat's legacy API, which will allow for future
-feature implementation.
+This is a very big excersize to demonstrate what Chrome installable apps are capable of.
+
+This is an independently developed app by Gabriel Simmer. It uses an API created by me to fetch the data from Voat's legacy API, which will allow for future feature implementation.
 
 ### Goal:
 
 Bringing Voat.co to an easy-to-browse format for mobile phones and desktop apps.
 
 ## FAQ
+
+**What features are there to implement?**
+*Plenty. First, subverse switching is on the list. Then I need to work on fetching self-posts, and finally I'll start working on implementing the shiny new API features.*
 
 **Why are you using the legacy API?**
 
@@ -22,21 +25,21 @@ update Moat.*
 
 **What can I help with?**
 
-*Right now, I'm working on the basic styling of everything. However, I need help with
-packaging the app for mobile. When I compiled it using PhoneGap, it couldn't load the
-content from my API.*
+*Testing. I need testers, especially on iOS and Windows Phone because I have access to neither types of device. I also need help with styling to make it better, and also a nicer icon.*
 
 **How can I install this on my phone?**
 
-*Currently, the web app is not hosted online. It is expected to go online by the
-end of November. Then, you can follow the "Installing on your phone" guide.*
+*See below!*
+
+**Will this ever be a native app on `device`**?
+*No. The original plan would have included that, however I am now focusing Moat Mobile on being a much more Chrome Web App project. However, if you would like to use my man-in-the-middle server API for your own app, take a look into `js/GetStuff.js` (more info coming soon).*
 
 ## Installing on your phone
 
 The app requires an Internet connection to load content. I have not measured the
 data impact of the app, so I recommend using only WiFi until I have some stats.
 
-- Visit http://gabrielsimmer.com/moat-mobile (coming soon).
+- Visit http://gabrielsimmer.com/moat-mobile.
 
 Android:
 
@@ -52,19 +55,19 @@ iOS:
 
 Desktop Chrome:
 
-[Link](http://gfycat.com/ClearCloudyBluetickcoonhound) because the gyfcat GIF won't work.
+[Gyfcat](http://gfycat.com/ClearCloudyBluetickcoonhound)
 
 Android:
 
-Coming soon
+[YouTube](https://www.youtube.com/watch?v=gI3sWM4v0lY)
 
 iOS:
 
 Coming soon
 
-## Components
+## Credits
 
-Without these components and amazing people, Moat would look a lot different.
+Without these components and amazing people, Moat would look (and work) a lot different.
 
 [Floating Action Bar](https://github.com/nobitagit/material-floating-button) by nobitagit
 
