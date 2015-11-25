@@ -15,6 +15,7 @@ Bringing Voat.co to an easy-to-browse format for mobile phones and desktop apps.
 ## FAQ
 
 **What features are there to implement?**
+
 *Plenty. First, subverse switching is on the list. Then I need to work on fetching self-posts, and finally I'll start working on implementing the shiny new API features.*
 
 **Why are you using the legacy API?**
@@ -32,6 +33,7 @@ update Moat.*
 *See below!*
 
 **Will this ever be a native app on `device`**?
+
 *No. The original plan would have included that, however I am now focusing Moat Mobile on being a much more Chrome Web App project. However, if you would like to use my man-in-the-middle server API for your own app, take a look into `js/GetStuff.js` (more info coming soon).*
 
 ## Installing on your phone
